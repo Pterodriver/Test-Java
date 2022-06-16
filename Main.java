@@ -1,11 +1,12 @@
 package Sandbox;
 
 import java.util.Scanner;
+//some comments
 
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String s = "";
+String s = "";
         while (scanner.hasNext()) {
             s = scanner.nextLine();
             try {
