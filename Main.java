@@ -1,11 +1,17 @@
 package Sandbox;
 
+<<<<<<< HEAD
 import java.util.Scanner
 //something new
+=======
+import java.util.Scanner;
+//some comments
+
+>>>>>>> 5bc8890effb04da79244b3dd22d888ed9bc547dd
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String s = "";
+String s = "";
         while (scanner.hasNext()) {
             s = scanner.nextLine();
             try {
